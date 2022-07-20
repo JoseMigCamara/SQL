@@ -14,7 +14,7 @@ begin
 DECLARE mensagem VARCHAR(255);
 DECLARE nome_erro VARCHAR(255);
 ```
-### Check if the id is null
+### Check if had some id null
 ```
 if new.id is null then
 signal sqlstate '45000' set message_text = 'O ID não pode ser nulo.';
