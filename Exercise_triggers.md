@@ -24,3 +24,4 @@ set nome = 'Maria'
 where nome = 'Pedro';
 ```
 ## And if you select the table registos ```SELECT * FROM registos;``` you will see that it is updating everything you have done, from insert, update and delete
+
